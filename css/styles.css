@@ -87,4 +87,17 @@ nav{
 #navitems ul li a{
   text-decoration: none;
   font-size: 2.5em;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.link1{
+  color: #B24F9E;
+}
+
+.link2{
+  color: #319EC8;
+}
+
+.link3{
+  color: #A76E25;
 }
