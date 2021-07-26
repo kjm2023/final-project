@@ -70,8 +70,11 @@ nav{
     transform: skew(-30deg, 0deg);
 }
 
-#navlogo p{
-  vertical-align: middle;
+#navlogo img{
+  width: 200px;
+  object-position: center center;
+  position: relative;
+  top: -50%;
 }
 
 #navitems{
