@@ -137,7 +137,12 @@ About Page Styles
   height: 400px;
 }
 
-
+.section1 div{
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translateY(-50%);
+}
 
 .section1 h1{
   font-family: 'Bebas Neue', cursive;
