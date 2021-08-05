@@ -253,6 +253,15 @@ footer{
   z-index: -2;
 }
 
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  color: #B24F9E;
+}
+
 .icons{
   text-align: right;
   padding-top: 2%;
