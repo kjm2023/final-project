@@ -120,6 +120,11 @@ nav{
   color: #A76E25;
 }
 
+#navitems a:hover{
+  text-decoration: overline;
+  color: white;
+}
+
 /* ----------------------------------------
 
 About Page Styles
