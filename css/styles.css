@@ -127,7 +127,7 @@ nav{
 
 /* ----------------------------------------
 
-About Page Styles
+Secondary Page Styles
 
 ------------------------------------------*/
 
@@ -159,6 +159,10 @@ About Page Styles
 
 .classes h1{
   color: #319EC8;
+}
+
+.experience h1{
+  color: #A76E25;
 }
 
 .section1 p{
@@ -200,6 +204,15 @@ section h2{
 
 .col1{
   width: 50%;
+}
+
+.student-work{
+  width: 100%;
+}
+
+.student-work img{
+  display: block;
+  float: left;
 }
 
 .col2{
@@ -244,10 +257,34 @@ section h2{
   top: 10%;
 }
 
+.section2-exp img{
+  position: relative;
+  left: 0;
+  width: 300px;
+  margin: 30px;
+  filter: grayscale(100%);
+}
+
+.section2-exp img:hover{
+  filter: grayscale(0);
+  transition: .3s;
+}
+
+.section2-exp div{
+  width: 90%;
+  margin: 0 auto;
+}
+
 h3{
   margin-top: 10px;
   font-family: 'Segoe UI', sans-serif;
   font-size: 18px;
+}
+
+.testimonial{
+  background: white;
+  width: 50%;
+  height: 100px;
 }
 
 /* ----------------------------------------
