@@ -44,7 +44,7 @@ header{
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2;
+  z-index: 999;
 }
 
 nav{
@@ -157,6 +157,10 @@ About Page Styles
   text-align: right;
 }
 
+.classes h1{
+  color: #319EC8;
+}
+
 .section1 p{
   text-align: right;
   font-size: 2em;
@@ -203,11 +207,18 @@ section h2{
 }
 
 .section2 p,
-.section3 p{
+.section2 ul,
+.section3 p,
+.section3 ul{
   font-family: 'Segoe UI', sans-serif;
   font-size: 16px;
   line-height: 1.75em;
   margin-top: 10px;
+}
+
+.section2 ul,
+.section3 ul{
+  list-style-position: inside;
 }
 
 .section2 img{
@@ -250,7 +261,7 @@ footer{
   height: 100px;
   background: black;
   position: relative;
-  z-index: -2;
+  z-index: 999;
 }
 
 footer a{
