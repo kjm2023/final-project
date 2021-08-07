@@ -109,14 +109,20 @@ nav{
 }
 
 .link1{
+  animation-name: linkchange;
+  animation-duration: 10s;
   color: #B24F9E;
 }
 
 .link2{
+  animation-name: linkchange2;
+  animation-duration: 10s;
   color: #319EC8;
 }
 
 .link3{
+  animation-name: linkchange3;
+  animation-duration: 10s;
   color: #A76E25;
 }
 
@@ -317,4 +323,25 @@ footer a:hover{
   font-size: 40px;
   color: white;
   z-index: -1;
+}
+
+/* ----------------------------------------
+
+Animations - Keyframes
+
+------------------------------------------*/
+
+@keyframes linkchange{
+  from {color: white;}
+  to {color: #B24F9E;}
+}
+
+@keyframes linkchange2{
+  from {color: white;}
+  to {color: #319EC8;}
+}
+
+@keyframes linkchange3{
+  from {color: white;}
+  to {color: #A76E25;}
 }

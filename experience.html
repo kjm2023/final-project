@@ -13,6 +13,7 @@
 
       gtag('config', 'G-GZY08CY87G');
     </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
     <link rel="icon" type="image/ico" href="images/favicon.png" />
     <title>Professor Kenyada | Experience</title>
@@ -21,6 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/9c0b87653d.js" crossorigin="anonymous"></script>
   </head>
 
@@ -33,7 +35,7 @@
       <nav>
         <!-- The nav includes a portion that includes the logo image.  -->
         <div id="navlogo">
-          <a href="index.html"><img src="images/professor-kenyada-white.png" alt="Professor Kenyada" /></a>
+          <a href="index.html"><img src="images/professor-kenyada-white.png" alt="Professor Kenyada" title="Professor Kenyada" /></a>
         </div>
         <!-- The navigation items will appear to the right of the logo/line. -->
         <div id="navitems">
@@ -62,9 +64,15 @@
         <div class="student-work">
           <h2>Graphic Design</h2>
             <div>
-              <img src="images/student1.jpg" alt="student computer graphic work" />
-              <img src="images/student2.jpg" alt="student computer graphic work" />
-              <img src="images/student3.jpg" alt="student computer graphic work" />
+              <a href="images/student1.jpg" data-lightbox="student1" data-title="Photoshop Composite">
+                <img src="images/student1.jpg" alt="student computer graphic work" title="student computer graphic work"/>
+              </a>
+              <a href="images/student2.jpg" data-lightbox="student1" data-title="Photoshop Composite">
+                <img src="images/student2.jpg" alt="student computer graphic work" title="student computer graphic work"/>
+              </a>
+              <a href="images/student3.jpg" data-lightbox="student1" data-title="Photoshop Composite">
+                <img src="images/student3.jpg" alt="student computer graphic work" title="student computer graphic work"/>
+              </a>
             </div>
         </div>
       </section>
@@ -100,6 +108,6 @@
         <a href="https://www.youtube.com/channel/UC16CkNJ4dGBXGN4xglSzYtw"><i class="fab fa-youtube-square"></i></a><a href="https://www.linkedin.com/in/kenyada-mcleod-34403017"> <i class="fab fa-linkedin"></i></a>
       </div>
     </footer>
-
+    <script src="lightbox/src/js/lightbox.js"></script>
   </body>
 </html>
