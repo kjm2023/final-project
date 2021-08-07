@@ -291,18 +291,11 @@ h3{
   height: 400px;
 }
 
-.testimonial{
-  background: white;
-  width: 50%;
-  height: 100px;
-}
-
 .cat-card{
   width: 100px;
   height: inherit;
   float: left;
   margin: 0 60px;
-
 }
 
 .cat-card img{
@@ -316,6 +309,33 @@ h3{
   font-size: 32px;
   width: 300px;
   text-align: center;
+}
+
+.testimonial{
+  background: white;
+  width: 50%;
+  height: 100px;
+  border-radius: 4px;
+  box-shadow: 5px 10px;
+}
+
+.testimonial p{
+  padding: 50px;
+  text-align: right;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 24px;
+}
+
+.testimonial p::before{
+  content: "< ";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.testimonial p::after{
+  content: " /> ";
+  font-size: 32px;
+  font-weight: bold;
 }
 
 /* ----------------------------------------
