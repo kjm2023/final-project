@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="description" content="Connect with Professor McLeod." >
+    <meta name="keywords" content="Kenyada McLeod, Professor, Kenyada" >
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9c0b87653d.js" crossorigin="anonymous"></script>
+  </head>
+  <!-- The home page body will include a background image and navigation. -->
+  <body class="body2">
+
+    <!-- The header will include navigation and will be positioned at the
+      bottom of the home page via CSS. -->
+    <header class="secondary">
+      <nav>
+        <!-- The nav includes a portion that includes the logo image.  -->
+        <div id="navlogo">
+          <img src="images/professor-kenyada-white.png" alt="Professor Kenyada" title="Professor Kenyada"/>
+        </div>
+        <!-- The navigation items will appear to the right of the logo/line. -->
+        <div id="navitems">
+          <ul>
+            <li><a href="about.html" class="link1">About</a></li>
+            <li><a href="classes.html" class="link2">Classes</a></li>
+            <li><a href="experience.html" class="link3">Experience</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contactform">
+      <section class="formsection">
+        <h1>Let's Connect!</h1>
+        <p>I would love to chat with you. Please complete the form below and I reach output
+          within 2 business days.</p>
+        <form class="contactme" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <div class="firstname">
+            <label for="firstname" class="label-input">First Name:</label>
+            <input type="text" name="firstname" id="firstname" />
+          </div>
+
+          <div class="lastname">
+            <label for="lastname" class="label-input">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" />
+          </div>
+
+          <div class="email">
+            <label for="email" class="label-input">E-mail address:</label>
+            <input type="email" name="email" id="email"
+            placeholder="jdoe@email.com" />
+          </div>
+
+          <div class="telephone">
+            <label for="telephone" class="label-input">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone"
+            placeholder="123-555-1234" />
+          </div>
+
+          <div class="comments">
+            <label for="comments" class="label-input">Comments:</label>
+            <textarea name="comments" id="comments" cols="50" rows="4"
+            placeholder="What would you like to discuss?">
+            </textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="I want to connect!" class="button"/>
+          </div>
+
+        </form>
+
+      </section>
+    </main>
+
+  </body>
+</html>

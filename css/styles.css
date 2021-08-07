@@ -295,6 +295,90 @@ h3{
 
 /* ----------------------------------------
 
+Form Styles
+
+------------------------------------------*/
+.contactform{
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  top: 200px;
+  margin: 0 auto;
+
+}
+
+.formsection h1{
+  font-family: 'Bebas Neue', cursive;
+  color: #B24F9E;
+  font-size: 4em;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.formsection p{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.formsection p::selection{
+  background: yellow;
+}
+
+.contactme{
+  background: #B0B1B6;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 8px;
+  top: 20px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.contactme div{
+  margin-bottom: 20px;
+}
+
+label{
+  font-family: 'Bebas Neue', cursive;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+label::before{
+  content: "< ";
+}
+
+label::after{
+  content: " />";
+}
+
+.label-input{
+  display: block;
+}
+
+input{
+  padding: 2px;
+}
+
+.button{
+  background: #000;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.button:hover{
+  background: #B24F9E;
+  color: white;
+  transition-delay: .3s;
+}
+
+/* ----------------------------------------
+
 Footer Styles
 
 ------------------------------------------*/
