@@ -287,10 +287,35 @@ h3{
   font-size: 18px;
 }
 
+.section3-exp{
+  height: 400px;
+}
+
 .testimonial{
   background: white;
   width: 50%;
   height: 100px;
+}
+
+.cat-card{
+  width: 100px;
+  height: inherit;
+  float: left;
+  margin: 0 60px;
+
+}
+
+.cat-card img{
+  width: 300px;
+}
+
+.cat-card p{
+  background-color: black;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 32px;
+  width: 300px;
+  text-align: center;
 }
 
 /* ----------------------------------------
